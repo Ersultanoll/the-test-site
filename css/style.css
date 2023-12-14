@@ -1,0 +1,182 @@
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #999;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+
+
+h1 {
+  font-size: 40px;
+  color: #fff;
+}
+
+h2, h3 {
+  color: #282828;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 26px;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.h2{
+  text-align: center;
+}
+
+.continer-hmm{
+background-color: #fff;
+position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.container.hmm{
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.jumbotron{
+  margin-top: 32px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.menu{
+  display: flex;
+  list-style: none;
+}
+
+.menu.uu{
+  justify-content: center;
+  margin-right: 55px;
+}
+
+/* Header */
+
+header {
+  background-color: #fff;
+}
+
+.brand {
+  color: #59abe3;
+}
+
+
+
+nav a {
+  color: #aaa;
+  margin-left: 20px;
+}
+
+
+
+/* Services */
+
+.jumbotron {
+  background-image: url('../img/jumbotron.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+  min-height: 250px;
+  width: 100vw;
+
+}
+
+
+.jumbotron .button {
+  display: inline-block;
+  color: #fff;
+  background-color: #22a7f0;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
+.service {
+  width: 33.333333%;
+  float: left;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.services {
+  text-align: center;
+  padding-top: 50px;
+}
+
+
+/* Blog */
+.blog {
+  clear: both;
+  padding: 50px 0;
+  background-color: #f5f5f5;
+}
+
+.post {
+  clear: both;
+}
+
+
+
+/* Footer */
+footer {
+  clear: both;
+  text-align: center;
+  padding: 50px 0;
+  background-color: #333;
+}
+
+footer .brand {
+  color: #aaa;
+  /* Дополнительные стили для .brand в футере */
+}
+
+
+
+
+.menu li a {
+  transition: 0.2s ease-in-out;
+  transform: translateY(0); /* Изначальное состояние */
+}
+
+.menu li a:hover {
+  transition-delay: 0.25s;
+  display: inline-block;
+  color: #7a7272;
+  transform: translateY(-5px); /* Состояние при наведении */
+}
+
+@media (max-width: 576px) {
+  .service {
+    width: 100%;
+    float: none;
+  }
+
+  
+}
+
+img {
+  height: auto;
+  object-fit: cover;
+}
+
+
+
+
+
